@@ -15,6 +15,7 @@ main {
 
 li, article, aside, under, footer {
     border: 1px solid black;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -24,9 +25,22 @@ header {
 
 ul {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 25% 25% 25%;
     list-style: none;
     text-align: left;
+    :hover {
+        background-color: rgb(79, 53, 97);
+        color: rgb(255, 250, 182);
+    }
+}
+
+li {
+    background-color: rgb(255, 250, 182);
+}
+
+a {
+    color: rgb(79, 53, 97);
+    text-decoration: none;
 }
 
 img {
