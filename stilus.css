@@ -1,0 +1,51 @@
+body {
+    color:antiquewhite;
+}
+main {
+    background-color: #444;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "h h h"
+                        "n ar as"
+                        "un un un"
+                        "f f f";
+}
+header {
+    grid-area: h;
+    background-color: #333;
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    grid-area: n;
+    background-color: #555;
+    color: antiquewhite;
+    padding: 1rem;
+}
+article {
+    grid-area: ar;
+    background-color: #666;
+    color: antiquewhite;
+    padding: 1rem;
+}
+aside {
+    grid-area: as;
+    background-color: #777;
+    color: antiquewhite;
+    padding: 1rem;
+}
+footer {
+    grid-area: f;
+    background-color: #333;
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
+under {
+    grid-area: un;
+    background-color: #888;
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
