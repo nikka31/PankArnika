@@ -1,0 +1,34 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "h h"
+        "n n"
+        "ar as"
+        "un un"
+        "f f";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+article {
+    ggrid-area: ar;
+}
+
+aside {
+    grid-area: as;
+}
+
+under {
+    grid-area: un;
+}
+
+footer {
+    grid-area: f;
+}
