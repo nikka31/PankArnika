@@ -21,19 +21,19 @@ nav {
     grid-area: n;
     background-color: #555;
     color: antiquewhite;
-    padding: 1rem;
+    padding: 8rem;
 }
 article {
     grid-area: ar;
     background-color: #666;
     color: antiquewhite;
-    padding: 1rem;
+    padding: 8rem;
 }
 aside {
     grid-area: as;
     background-color: #777;
     color: antiquewhite;
-    padding: 1rem;
+    padding: 8rem;
 }
 footer {
     grid-area: f;
@@ -48,4 +48,32 @@ under {
     color: antiquewhite;
     padding: 1rem;
     text-align: center;
+}
+media@screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "h"
+                            "n"
+                            "ar"
+                            "as"
+                            "un"
+                            "f";
+    }
+    nav, article, aside {
+        padding: 2rem;
+    }
+}
+media@screen and (max-width: 480px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "h"
+                            "n"
+                            "ar"
+                            "as"
+                            "un"
+                            "f";
+    }
+    nav, article, aside {
+        padding: 1rem;
+    }
 }
