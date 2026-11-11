@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(220, 145, 235);
+    background-color: rgb(246, 203, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main {
@@ -17,6 +18,7 @@ li, article, aside, under, footer, .kartya {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
+    margin: 5px;
 }
 
 header {
@@ -61,16 +63,27 @@ nav {
     grid-area: n;
 }
 
+h1 {
+    color: rgb(255, 250, 182);
+    font-size: 250%;
+    text-decoration: underline;
+}
+
 article {
     ggrid-area: ar;
+    background-color: rgb(79, 53, 97);
+    color: rgb(255, 250, 182);
 }
 
 aside {
     grid-area: as;
+    background-color: rgb(79, 53, 97);
+    color: rgb(255, 250, 182);
 }
 
 under {
     grid-area: un;
+    background-color: rgb(255, 250, 182);
 }
 
 footer {
@@ -87,5 +100,9 @@ footer {
             "as"
             "un"
             "f";
+    }
+
+    .kartyak {
+        grid-template-columns: 1fr;
     }
 }
