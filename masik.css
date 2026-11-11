@@ -101,7 +101,9 @@ footer {
             "un"
             "f";
     }
-
+    ul {
+        grid-template-columns: 1fr;
+    }
     .kartyak {
         grid-template-columns: 1fr;
     }
