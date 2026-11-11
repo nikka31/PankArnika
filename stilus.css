@@ -12,39 +12,51 @@ main {
 }
 header {
     grid-area: h;
-    background-color: #333;
-    color: antiquewhite;
+    background-color: #ffe607;
+    color: rgb(0, 0, 0);
     padding: 1rem;
     text-align: center;
+    font-size: 5rem;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
 }
 nav {
     grid-area: n;
-    background-color: #555;
+    background-color: #f85c5c;
     color: antiquewhite;
     padding: 8rem;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 article {
     grid-area: ar;
-    background-color: #666;
+    background-color: #3d67f0;
     color: antiquewhite;
     padding: 8rem;
 }
 aside {
     grid-area: as;
-    background-color: #777;
+    background-color: #6dd63c;
     color: antiquewhite;
     padding: 8rem;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 footer {
     grid-area: f;
-    background-color: #333;
+    background-color: #f5359f;
     color: antiquewhite;
     padding: 1rem;
     text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 under {
     grid-area: un;
-    background-color: #888;
+    background-color: #36fa9e;
     color: antiquewhite;
     padding: 1rem;
     text-align: center;
@@ -81,4 +93,15 @@ under {
     nav, article, aside {
         padding: 1rem;
     }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
