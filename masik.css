@@ -70,7 +70,7 @@ h1 {
 }
 
 article {
-    ggrid-area: ar;
+    grid-area: ar;
     background-color: rgb(79, 53, 97);
     color: rgb(255, 250, 182);
 }
