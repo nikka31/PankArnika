@@ -49,7 +49,11 @@ under {
     padding: 1rem;
     text-align: center;
 }
-media@screen and (max-width: 768px) {
+.main {
+    width: 80%;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
         grid-template-areas: "h"
@@ -63,7 +67,8 @@ media@screen and (max-width: 768px) {
         padding: 2rem;
     }
 }
-media@screen and (max-width: 480px) {
+
+@media screen and (max-width: 480px) {
     main {
         grid-template-columns: 1fr;
         grid-template-areas: "h"
