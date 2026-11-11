@@ -1,3 +1,7 @@
+html {
+    background-color: rgb(220, 145, 235);
+}
+
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -7,6 +11,26 @@ main {
         "ar as"
         "un un"
         "f f";
+}
+
+li, article, aside, under, footer {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    list-style: none;
+    text-align: left;
+}
+
+img {
+    width: 100%;
 }
 
 header {
