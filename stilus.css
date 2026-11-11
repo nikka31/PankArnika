@@ -25,6 +25,9 @@ nav {
     background-color: #f85c5c;
     color: antiquewhite;
     padding: 8rem;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 article {
     grid-area: ar;
@@ -37,6 +40,9 @@ aside {
     background-color: #6dd63c;
     color: antiquewhite;
     padding: 8rem;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 footer {
     grid-area: f;
@@ -44,6 +50,9 @@ footer {
     color: antiquewhite;
     padding: 1rem;
     text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
 under {
     grid-area: un;
@@ -88,4 +97,11 @@ under {
 img {
     max-width: 100%;
     height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Brush Script MT', cursive;
+    foint-weight: bold;
+    font-size: 2rem;
 }
